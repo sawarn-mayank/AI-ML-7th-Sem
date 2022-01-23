@@ -6,7 +6,7 @@ def aStarAlgo(start_node, stop_node):
         g = {} #store distance from starting node
         parents = {}# parents contains an adjacency map of all nodes
  
-        #ditance of starting node from itself is zero
+        #distance of starting node from itself is zero
         g[start_node] = 0
         #start_node is root node i.e it has no parent nodes
         #so start_node is set to its own parent node
